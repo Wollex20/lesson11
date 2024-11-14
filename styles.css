@@ -129,3 +129,114 @@ h1 {
   background-color: #0a22f4;
   color: white;
 }
+
+
+
+footer {
+  background-color: blue;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.container {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+h2 {
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+p {
+  margin-bottom: 58px;
+}
+
+h2,
+a {
+  color: white;
+}
+form > * {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.form-class {
+  margin-left: 120px;
+  margin-top: 100px;
+}
+
+.made-by {
+  border-top: 1px solid white;
+}
+
+iframe {
+  max-width: 463px;
+  width: 100%;
+  height: 197px;
+}
+
+.subtmit,
+[type="submit"] {
+  width: 151px;
+  height: 55px;
+  border-radius: 20px;
+  background-color: white;
+  color: black;
+  margin-top: 58px;
+}
+
+.button-parent {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.box2 {
+  width: 100%;
+  border: 1px solid blue;
+  color: white;
+  display: flex;
+  align-items: center;
+  margin-top: 70px;
+  margin-bottom: 40px;
+  gap: 40px;
+}
+
+.phone,
+.gmail {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box4 {
+  display: flex;
+  justify-content: space-between;
+}
+
+h3 {
+  color: white;
+}
+
+.art {
+  display: flex;
+  justify-content: baseline;
+  align-items: baseline;
+  margin-right: 20px;
+  gap: 20px;
+  color: white;
+}
+
+.bolo {
+  display: none;
+}

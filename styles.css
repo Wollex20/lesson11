@@ -240,3 +240,113 @@ h3 {
 .bolo {
   display: none;
 }
+
+
+
+@media (width < 768px) {
+  nav {
+    display: none;
+  }
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .photo-1 {
+    height: 345px;
+  }
+  .section-1 {
+    margin-top: 16px;
+  }
+
+  .img-5 {
+    display: none;
+  }
+
+  h1 {
+    margin-top: 16px;
+    margin-bottom: 40px;
+  }
+
+  .dashoreb {
+    margin-top: 10px;
+  }
+
+  span {
+    display: none;
+  }
+
+  .shua-botomi {
+    margin-top: -170px;
+  }
+
+  footer {
+    margin-top: -200px;
+  }
+
+  form {
+    margin-top: 12px;
+  }
+  .map-block {
+    grid-column: 1/3;
+    margin-left: 150px;
+  }
+
+  .form-class {
+    grid-column: 2/1;
+    margin-left: 13em;
+    margin-top: 30px;
+    width: 334px;
+  }
+
+  .form-class {
+    order: -1;
+  }
+
+  h2,
+  .p-none {
+    display: none;
+  }
+
+  .subtmit,
+  [type="submit"] {
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+
+  .button-parent,
+  .box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .art {
+    order: -1;
+    display: flex;
+    justify-content: center;
+    margin-left: 15em;
+  }
+
+  h3 {
+    display: none;
+  }
+
+  .bolo-logo {
+    display: block;
+    text-align: center;
+    padding-bottom: 28px;
+  }
+
+  h4 {
+    color: #ffffff;
+    margin-bottom: 30px;
+  }
+}

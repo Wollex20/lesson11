@@ -66,3 +66,66 @@ button {
   color: #171717;
   background-color: white;
 }
+
+
+main {
+  margin-top: -25em;
+}
+
+section {
+  margin-top: 133px;
+}
+
+.section-1 {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 30px;
+  margin-left: 10.2%;
+}
+
+.photo-1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 133px;
+}
+
+h1 {
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.section-2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.chaild-section {
+  display: flex;
+  justify-content: center;
+  margin: 60px 180px;
+}
+
+.section-3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 76px;
+  padding: 20px;
+}
+
+.shua-botomi {
+  margin-bottom: 198px;
+}
+
+.button-2,
+[type="button"] {
+  width: 341px;
+  height: 55px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  color: #171717;
+  background-color: #0a22f4;
+  color: white;
+}
